@@ -37,7 +37,7 @@ body {
   transition: .3s;
   margin: 0 6px;
   z-index: 1;
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'poppins', sans-serif;
   font-weight: 500;
   position: relative;
 }
@@ -437,8 +437,6 @@ body {
     .contact-form{
         text-align: left;
         margin-top: 100px;
-        display: grid;
-        grid-template-columns: auto auto;
      }
     
     .form-info{
@@ -474,7 +472,9 @@ body {
      color: white;
    }
    
-    
+    .contact-form .fa-envelope{
+      font-size: smaller;
+    }
   
     .submit{
     width: 40%;
@@ -576,11 +576,17 @@ body {
 #contact-section .contact-form{
     display: block;
     width: 100%;
-    text-align: center;
+    text-align: left;
   }
   #contact-section .submit{
 
     width: 60%;
+  }
+  .form-info{
+    font-size: smaller;
+  }
+  .content{
+    text-align: center;
   }
 
 .flex-container{
